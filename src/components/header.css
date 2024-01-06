@@ -1,0 +1,19 @@
+.content {
+  height: 200px;
+  background-color: #01928b;
+}
+.frame {
+  margin: auto;
+  width: 80%;
+}
+.frame .above {
+  height: 150px;
+}
+.frame .above img.logo-header {
+  height: 100%;
+  width: 100px;
+}
+
+.frame .bottom {
+  height: auto;
+}

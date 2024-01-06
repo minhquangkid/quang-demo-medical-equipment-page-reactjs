@@ -1,87 +1,37 @@
 import React from "react";
+import logo from "../asset/image/logo_sendora_new-v2023.png";
+import "./header.css";
 
 const Header = () => {
   return (
     <React.Fragment>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Navbar
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Link
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">
-                  Disabled
-                </a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
+      <div className="content">
+        <div className="frame">
+          <div className="above">
+            <div className="logo">
+              <img src={logo} className="logo-header" alt="" />
+            </div>
+            <div className="search-frame">
+              <select>
+                <option>Sản phẩm</option>
+                <option>Bàn ghế</option>
+              </select>
               <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
+                type="text"
+                placeholder="bạn tìm sản phẩm gì..."
+                id="search-header"
               />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+              <button>Search</button>
+            </div>
+            <div className="call-block">Gọi ngay</div>
+            <div className="favorite-block">Trái tim</div>
+            <div className="cart-block">Giỏ hàng</div>
+            <div className="register-block">Đăng ký</div>
           </div>
+          <hr></hr>
+          <div className="bottom"></div>
         </div>
-      </nav>
+      </div>
     </React.Fragment>
   );
 };
