@@ -1,6 +1,7 @@
 .content {
   height: 200px;
   background-color: #01928b;
+  color: white;
 }
 .frame {
   margin: auto;
@@ -11,7 +12,29 @@
 }
 .frame .above img.logo-header {
   height: 100%;
-  width: 100px;
+  /* width: 100px; */
+}
+.frame .above .call-block {
+  padding: 0;
+}
+.frame .above .call-block p {
+  margin: 0;
+  padding: 0;
+}
+
+.frame .above .favorite-block .inside-favorite {
+  position: relative;
+}
+
+.frame .above .favorite-block .inside-favorite .favorite-count {
+  font-size: 18px;
+  position: absolute;
+  bottom: -10px;
+  right: 5px;
+}
+
+.icon-block {
+  font-size: 35px;
 }
 
 .frame .bottom {
