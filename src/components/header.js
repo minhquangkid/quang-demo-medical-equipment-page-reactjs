@@ -4,6 +4,7 @@ import "./header.css";
 import { LuPhone } from "react-icons/lu";
 import { FaRegHeart } from "react-icons/fa6";
 import { PiShoppingCart } from "react-icons/pi";
+import { SlUser } from "react-icons/sl";
 
 const Header = () => {
   return (
@@ -26,25 +27,36 @@ const Header = () => {
               />
               <button>Search</button>
             </div>
-            <div className="call-block d-flex align-items-center">
+            <div className="contact-block d-flex align-items-center">
               <LuPhone style={{ fontSize: 30, margin: 10 }} />
               <div>
                 <p>Gọi ngay</p>
                 <p style={{ fontWeight: 700 }}>0934267612</p>
               </div>
             </div>
-            <div className="favorite-block d-flex align-items-center">
-              <div className="inside-favorite">
+            <div className="figure-block d-flex align-items-center">
+              <div className="inside-figure">
                 <FaRegHeart className="icon-block" />
-                <div className="d-flex algin-items-center favorite-count">
+                <div className="d-flex justify-content-center align-items-center figure-count">
                   0
                 </div>
               </div>
             </div>
-            <div className="cart-block">
-              <PiShoppingCart />
+            <div className="figure-block d-flex align-items-center">
+              <div className="inside-figure">
+                <PiShoppingCart className="icon-block" />
+                <div className="d-flex justify-content-center align-items-center figure-count">
+                  0
+                </div>
+              </div>
             </div>
-            <div className="register-block">Đăng ký</div>
+            <div className="contact-block d-flex align-items-center">
+              <SlUser style={{ fontSize: 30, margin: 10 }} />
+              <div>
+                <p style={{ fontWeight: 700 }}>Đăng nhập</p>
+                <p style={{ fontWeight: 700 }}>Đăng ký</p>
+              </div>
+            </div>
           </div>
           <hr></hr>
           <div className="bottom"></div>
