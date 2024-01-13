@@ -1,5 +1,5 @@
 .content {
-  height: 200px;
+  /* height: 200px; */
   background-color: #01928b;
   color: white;
 }
@@ -67,4 +67,27 @@
 #search-header {
   padding: 0 20px;
   height: 40px;
+}
+.bottom {
+  font-weight: 700;
+}
+.bottom .danhSach {
+  width: 300px;
+  height: 100%;
+  font-size: 18px;
+}
+.bottom .menu {
+  width: 100%;
+  margin: 0 60px;
+}
+.bottom p {
+  margin: 0;
+  cursor: pointer;
+}
+.bottom p.active {
+  color: orange;
+}
+
+.bottom p:hover {
+  color: orange;
 }

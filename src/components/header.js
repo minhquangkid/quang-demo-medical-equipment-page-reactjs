@@ -6,6 +6,8 @@ import { FaRegHeart } from "react-icons/fa6";
 import { PiShoppingCart } from "react-icons/pi";
 import { SlUser } from "react-icons/sl";
 import { AiOutlineSearch } from "react-icons/ai";
+import { IoIosArrowDown } from "react-icons/io";
+import { AiFillThunderbolt } from "react-icons/ai";
 const Header = () => {
   return (
     <React.Fragment>
@@ -82,8 +84,26 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <hr></hr>
-          <div className="bottom"></div>
+          <hr style={{ margin: 0 }}></hr>
+          <div className="d-flex align-items-center justify-content-center bottom">
+            <div className="d-flex align-items-center justify-content-center danhSach m-2">
+              Danh sách sản phẩm
+              <IoIosArrowDown style={{ marginLeft: 10, marginTop: 5 }} />
+            </div>
+            <div className="d-flex justify-content-around align-items-center menu">
+              <p className="active">TRANG CHỦ</p>
+              <p>
+                <span>
+                  <AiFillThunderbolt style={{ marginRight: 5 }} />
+                </span>
+                KHUYẾN MÃI
+              </p>
+              <p>TƯ VẤN SẢN PHẨM</p>
+              <p>HỒ SƠ NĂNG LỰC</p>
+              <p>KHÁCH HÀNG</p>
+              <p>LIÊN HỆ</p>
+            </div>
+          </div>
         </div>
       </div>
     </React.Fragment>
