@@ -5,27 +5,48 @@ import { LuPhone } from "react-icons/lu";
 import { FaRegHeart } from "react-icons/fa6";
 import { PiShoppingCart } from "react-icons/pi";
 import { SlUser } from "react-icons/sl";
-
+import { AiOutlineSearch } from "react-icons/ai";
 const Header = () => {
   return (
     <React.Fragment>
       <div className="content">
         <div className="frame">
           <div className="above d-flex">
-            <div className="logo flex-grow-1">
+            <div className="logo d-flex align-items-center justify-content-center">
               <img src={logo} className="logo-header" alt="" />
             </div>
             <div className="search-frame d-flex align-items-center">
-              <select>
-                <option>Sản phẩm</option>
-                <option>Bàn ghế</option>
+              <select className="select-block">
+                <option value="0" selected="selected">
+                  Sản phẩm
+                </option>
+                <option class="level-0" value="ban-ghe-van-phong">
+                  Bàn ghế văn phòng
+                </option>
+                <option class="level-1" value="ban-van-phong">
+                  &nbsp;&nbsp;&nbsp;Bàn văn phòng
+                </option>
+                <option class="level-1" value="ghe-van-phong">
+                  &nbsp;&nbsp;&nbsp;Ghế văn phòng
+                </option>
+                <option class="level-0" value="dung-cu-phun-xam">
+                  Dụng cụ phun xăm
+                </option>
+                <option class="level-1" value="dung-cu-dieu-khac">
+                  &nbsp;&nbsp;&nbsp;Dụng cụ điêu khắc
+                </option>
+                <option class="level-1" value="dung-cu-ho-tro">
+                  &nbsp;&nbsp;&nbsp;Dụng cụ hỗ trợ
+                </option>
               </select>
               <input
                 type="text"
                 placeholder="bạn tìm sản phẩm gì..."
                 id="search-header"
               />
-              <button>Search</button>
+              <button className="btn-search">
+                <AiOutlineSearch style={{ fontSize: 20 }} />
+              </button>
             </div>
             <div className="contact-block d-flex align-items-center">
               <LuPhone style={{ fontSize: 30, margin: 10 }} />
@@ -50,7 +71,10 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            <div className="contact-block d-flex align-items-center">
+            <div
+              className="contact-block d-flex align-items-center"
+              style={{ width: 200 }}
+            >
               <SlUser style={{ fontSize: 30, margin: 10 }} />
               <div>
                 <p style={{ fontWeight: 700 }}>Đăng nhập</p>

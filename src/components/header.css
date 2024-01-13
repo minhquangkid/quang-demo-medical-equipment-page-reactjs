@@ -5,17 +5,21 @@
 }
 .frame {
   margin: auto;
-  width: 80%;
+  width: 90%;
 }
 .frame .above {
   height: 150px;
 }
+.frame .above .logo {
+  margin: 20px;
+}
 .frame .above img.logo-header {
   height: 100%;
-  /* width: 100px; */
+  width: 100%;
 }
 .frame .above .contact-block {
   padding: 0;
+  margin: 10px;
 }
 .frame .above .contact-block p {
   margin: 0;
@@ -24,6 +28,7 @@
 
 .frame .above .figure-block .inside-figure {
   position: relative;
+  margin: 10px;
 }
 
 .frame .above .figure-block .inside-figure .figure-count {
@@ -43,4 +48,23 @@
 
 .frame .bottom {
   height: auto;
+}
+.select-block {
+  border-radius: 5px 0 0 5px;
+  padding: 5px;
+  width: auto;
+  border-right: none;
+  height: 40px;
+}
+.btn-search {
+  height: 40px;
+  border: none;
+  padding: 0 40px;
+  background-color: orange;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+#search-header {
+  padding: 0 20px;
+  height: 40px;
 }
