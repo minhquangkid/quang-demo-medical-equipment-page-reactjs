@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../asset/image/logo_sendora_new-v2023.png";
+import logo from "../../asset/image/logo_sendora_new-v2023.png";
 import "./header.css";
 import { LuPhone } from "react-icons/lu";
 import { FaRegHeart } from "react-icons/fa6";
