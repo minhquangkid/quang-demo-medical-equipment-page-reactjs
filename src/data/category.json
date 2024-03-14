@@ -1,0 +1,35 @@
+[
+    {
+        "mainCategory" : "Ghế giường thẩm mỹ",
+        "listSubCate" : [
+            "Ghế giường phun xăm","Ghế giường tiêm Filler","Giường vali chân gỗ"
+        ]
+    },
+    {
+        "mainCategory" : "Máy thẩm mỹ, spa",
+        "listSubCate" : [
+            "Máy Laser xóa xăm","Máy triệt lông","Máy giảm béo"
+        ]
+    },
+    {
+        "mainCategory" : "Đèn Led phun xăm - Spa",
+        "listSubCate" : [
+            "Đèn phun xăm","Đèn led nối mi","Đèn lúp soi da"
+        ]
+    },
+    {
+        "mainCategory" : "Thiết bị phẫu thuật",
+        "listSubCate" : [
+            "Đèn mổ phẫu thuật","Bàn mổ phẫu thuật","Giường y tế đa năng"
+        ]
+    },
+    {
+        "mainCategory" : "Xe đẩy spa",
+        "listSubCate" : []
+    },
+    {
+        "mainCategory" : "Khuyến mãi",
+        "listSubCate" : []
+    }
+
+]

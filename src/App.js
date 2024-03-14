@@ -7,7 +7,7 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <Menu/>
+      <Menu />
     </React.Fragment>
   );
 }

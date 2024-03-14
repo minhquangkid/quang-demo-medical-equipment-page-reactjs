@@ -1,0 +1,19 @@
+.border-menu{
+    border: solid 1px grey;
+    margin-top: 10px;
+    margin-right: 20px;
+    transition: 0.4s;
+}
+
+.border-menu:hover{
+    margin-top: 0px;
+}
+
+.main-cate{
+    transition: background-color 0.5s, color 1s;
+}
+
+.main-cate:hover{
+    background-color: #01928b;
+    color: white
+}

@@ -19,25 +19,25 @@ const Header = () => {
             </div>
             <div className="search-frame d-flex align-items-center">
               <select className="select-block">
-                <option value="0" selected="selected">
+                <option value="0" defaultValue="selected">
                   Sản phẩm
                 </option>
-                <option class="level-0" value="ban-ghe-van-phong">
+                <option className="level-0" value="ban-ghe-van-phong">
                   Bàn ghế văn phòng
                 </option>
-                <option class="level-1" value="ban-van-phong">
+                <option className="level-1" value="ban-van-phong">
                   &nbsp;&nbsp;&nbsp;Bàn văn phòng
                 </option>
-                <option class="level-1" value="ghe-van-phong">
+                <option className="level-1" value="ghe-van-phong">
                   &nbsp;&nbsp;&nbsp;Ghế văn phòng
                 </option>
-                <option class="level-0" value="dung-cu-phun-xam">
+                <option className="level-0" value="dung-cu-phun-xam">
                   Dụng cụ phun xăm
                 </option>
-                <option class="level-1" value="dung-cu-dieu-khac">
+                <option className="level-1" value="dung-cu-dieu-khac">
                   &nbsp;&nbsp;&nbsp;Dụng cụ điêu khắc
                 </option>
-                <option class="level-1" value="dung-cu-ho-tro">
+                <option className="level-1" value="dung-cu-ho-tro">
                   &nbsp;&nbsp;&nbsp;Dụng cụ hỗ trợ
                 </option>
               </select>
